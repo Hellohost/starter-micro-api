@@ -138,7 +138,7 @@ var getTickets = async () => {
   }
 };
 const test = async () => await (() => 123);
-const bot = new Telegraf(testBot);
+const bot = new Telegraf(smartAssToken);
 const pot = -1001274650249;
 console.log(bot ? "Startingggg" : "Bot failed init");
 
